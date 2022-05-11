@@ -1,0 +1,6 @@
+du: cannot access '/proc/2129/task/2129/fd/4': No such file or directory
+du: cannot access '/proc/2129/task/2129/fdinfo/4': No such file or directory
+du: cannot access '/proc/2129/fd/3': No such file or directory
+du: cannot access '/proc/2129/fdinfo/3': No such file or directory
+du: cannot access '/run/user/1000/gvfs': Permission denied
+du: cannot access '/run/user/1000/doc': Permission denied

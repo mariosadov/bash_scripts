@@ -1,0 +1,82 @@
+uptime:
+ 23:17:22 up 3 min,  2 users,  load average: 0,10, 0,20, 0,09
+
+current users:
+marian marian
+
+most recent logins:
+marian   tty2         tty2             Wed May 11 23:13   still logged in
+reboot   system boot  5.15.0-27-generi Wed May 11 23:13   still running
+marian   tty2         tty2             Wed May 11 02:49 - down   (00:06)
+reboot   system boot  5.15.0-27-generi Wed May 11 02:49 - 02:56  (00:06)
+marian   tty2         tty2             Wed May 11 02:47 - down   (00:00)
+reboot   system boot  5.15.0-27-generi Wed May 11 02:47 - 02:48  (00:00)
+marian   tty2         tty2             Wed May 11 02:43 - down   (00:03)
+reboot   system boot  5.15.0-27-generi Wed May 11 02:43 - 02:47  (00:04)
+marian   tty2         tty2             Wed May 11 00:20 - down   (02:19)
+reboot   system boot  5.15.0-27-generi Wed May 11 00:20 - 02:39  (02:19)
+
+top 10 processes by ram:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+marian      1343  5.8  3.0 4355644 245708 ?      Ssl  23:13   0:12 /usr/bin/gnome-shell
+marian      1790  0.1  0.8 210324 69404 ?        S    23:13   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.89K5L1 -listen 4 -listen 5 -displayfd 6 -initfd 7
+marian      1883  0.1  0.8 535080 68752 ?        Ssl  23:13   0:00 /usr/libexec/gsd-xsettings
+marian      1745  0.1  0.8 813348 66088 ?        Sl   23:13   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+marian      1885  0.4  0.7 2805384 64372 ?       Sl   23:13   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:800:600:1:27:0:74:0:0
+marian      1305  0.3  0.7 593304 62404 ?        Ssl  23:13   0:00 /usr/libexec/gnome-remote-desktop-daemon
+marian      2007  0.7  0.7 577356 56764 ?        Ssl  23:14   0:01 /usr/libexec/gnome-terminal-server
+marian      1447  0.1  0.4 572616 40212 ?        Sl   23:13   0:00 /usr/libexec/goa-daemon
+marian      1714  0.5  0.4 299716 37824 ?        Sl   23:13   0:01 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+marian      1806  0.5  0.4 718752 32660 ?        SNsl 23:13   0:01 /usr/libexec/tracker-miner-fs-3
+
+top 10 processes by cpu:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+marian      1343  5.8  3.0 4355644 245708 ?      Ssl  23:13   0:12 /usr/bin/gnome-shell
+root           1  2.8  0.1 166576 11820 ?        Ss   23:13   0:06 /sbin/init auto noprompt splash
+root        2115  1.0  0.0  26000  6300 pts/0    S+   23:17   0:00 sudo /home/marian/scripts/script3/audit.sh
+marian      1186  0.8  0.3 1435612 28544 ?       S<sl 23:13   0:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+root         927  0.7  0.3 1392240 28536 ?       Ssl  23:13   0:01 /usr/lib/snapd/snapd
+marian      2007  0.7  0.7 577356 56764 ?        Ssl  23:14   0:01 /usr/libexec/gnome-terminal-server
+root          97  0.6  0.0      0     0 ?        I    23:13   0:01 [kworker/u256:1-events_unbound]
+marian      1712  0.6  0.3 359292 28764 ?        Sl   23:13   0:01 /usr/libexec/ibus-extension-gtk3
+root          19  0.5  0.0      0     0 ?        S    23:13   0:01 [migration/1]
+root          25  0.5  0.0      0     0 ?        S    23:13   0:01 [migration/2]
+
+open ports:
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      1063/cupsd          
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1083/sshd: /usr/sbi 
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      681/systemd-resolve 
+tcp6       0      0 ::1:631                 :::*                    LISTEN      1063/cupsd          
+tcp6       0      0 :::22                   :::*                    LISTEN      1083/sshd: /usr/sbi 
+
+virtual memory info:
+               total        used        free      shared  buff/cache   available
+Mem:           7,7Gi       992Mi       6,0Gi        45Mi       771Mi       6,5Gi
+Swap:          1,8Gi          0B       1,8Gi
+
+disk memory usage info:
+0	/bin
+169M	/boot
+4,0K	/cdrom
+0	/dev
+15M	/etc
+174M	/home
+0	/lib
+0	/lib32
+0	/lib64
+0	/libx32
+16K	/lost+found
+3,6G	/media
+4,0K	/mnt
+4,0K	/opt
+0	/proc
+72K	/root
+2,1M	/run
+0	/sbin
+3,1G	/snap
+4,0K	/srv
+1,9G	/swapfile
+0	/sys
+156K	/tmp
+5,3G	/usr
+2,6G	/var
