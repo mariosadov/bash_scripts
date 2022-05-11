@@ -1,0 +1,28 @@
+os name: GNU/Linux
+kernel version: #28-Ubuntu SMP Thu Apr 14 04:55:28 UTC 2022
+kernel release: 5.15.0-27-generic
+
+info about network interfaces:
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.31.80  netmask 255.255.255.0  broadcast 192.168.31.255
+        inet6 fe80::21ff:8f32:2d03:7064  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:ce:97:eb  txqueuelen 1000  (Ethernet)
+        RX packets 23051  bytes 1701431 (1.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 637  bytes 62858 (62.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 251  bytes 24421 (24.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 251  bytes 24421 (24.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+fireall info:
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
